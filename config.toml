@@ -1,5 +1,5 @@
 site_title = "MyArxiv"
-limit_days = 7
+limit_days = 30
 cache_url = "https://github.com/Anduin9527/MyArxiv/cache.json"
 
 [[sources]]
@@ -11,21 +11,6 @@ title = "Computation and Language"
 limit = 150
 category = "cs.CV"
 title = "Computer Vision and Pattern Recognition"
-
-[[sources]]
-limit = 150
-category = "cs.IR"
-title = "Information Retrieval"
-
-[[sources]]
-limit = 150
-category = "cs.LG"
-title = "Machine Learning"
-
-[[sources]]
-limit = 150
-category = "cs.MM"
-title = "Multimedia"
 
 [scripts]
 highlight_title = "scripts/highlight_title.rhai"
